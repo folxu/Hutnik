@@ -2,6 +2,8 @@
 
 #include "postacie.h"
 #include <iostream>
+#include <cstdlib>
+#include <time.h> // lub ctime
 
 using namespace std;
 
@@ -17,11 +19,30 @@ void GlownyBohater::wczytaj() // Klasa::Statystyki
 
 }
 
+void GlownyBohater::walka()
+{
+    srand(time(NULL)); //pobierz liczbe sekund od 1970 do momentu wywolania tej linijki.
+    PoziomHP = rand()%100+1; //do tego + sila + itemy [soon]
+    cout << PoziomHP << endl;
+
+}
+
 
 void Baran::wczytaj()
 {
-    //test
     cout << "HP Barana: " << HP << endl;
+    cout << "Sila Barana: " << Sila << endl;
+    cout << "Obrona Barana " << Obrona << endl;
+    cout << "Inteligencja Barana " << Inteligencja << endl;
+    cout << "Lvl Barana " << Lvl << endl;
+
+}
+
+void Baran::walka()
+{
+    srand(time(NULL)); //pobierz liczbe sekund od 1970 do momentu wywolania tej linijki.
+    PoziomHP = rand()%100+1; //do tego + sila + itemy [soon]
+    cout << PoziomHP << endl;
 
 }
 

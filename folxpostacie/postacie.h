@@ -12,8 +12,9 @@ public:
     int Obrona=10;
     int Inteligencja=0; // xd
     int Lvl=1;
-
+    int PoziomHP;
     void wczytaj();  //wczytuje statystyki
+    void walka();
 };
 
 class Baran //Baran to ten ziomek ktory w PROLOGU bil sie z glownym bohaterem przy WC
@@ -26,5 +27,5 @@ public:
     int Lvl=4;
 
     void wczytaj(); //wczytuje barana xD!
-
+    void walka();
 };
