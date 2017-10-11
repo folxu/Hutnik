@@ -1,4 +1,4 @@
-#Glowny Bohater
+#glowny bohater
 
 HP = 100;
 
