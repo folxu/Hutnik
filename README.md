@@ -1,8 +1,13 @@
 #Glowny Bohater
+
 HP = 100;
+
 Sila = 10;
+
 Obrona = 10;
+
 Inteligencja = 0;
+
 Lvl = 1;
 
 #Druga Postac
