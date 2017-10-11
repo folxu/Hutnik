@@ -12,7 +12,7 @@ public:
     int Obrona=10;
     int Inteligencja=0; // xd
     int Lvl=1;
-    int PoziomHP;
+    int PoziomHP; //wyswietla za ile przeciwnik lub ty dostal hita (?)
     void wczytaj();  //wczytuje statystyki
     void walka();
 };
@@ -25,6 +25,7 @@ public:
     int Obrona=30;
     int Inteligencja=1;
     int Lvl=4;
+    int PoziomHP;
 
     void wczytaj(); //wczytuje barana xD!
     void walka();

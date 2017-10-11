@@ -22,8 +22,16 @@ void GlownyBohater::wczytaj() // Klasa::Statystyki
 void GlownyBohater::walka()
 {
     srand(time(NULL)); //pobierz liczbe sekund od 1970 do momentu wywolania tej linijki.
-    PoziomHP = rand()%100+1; //do tego + sila + itemy [soon]
-    cout << PoziomHP << endl;
+    PoziomHP = rand()%100+Sila+Lvl; //do tego + sila + itemy [soon]
+    if (PoziomHP < HP)
+    {
+        cout << "Zadales: " << PoziomHP << endl;
+        cout << "Zaraz bedzie kolejna runda!" << endl;
+    }
+    else
+    {
+        // nwm
+    }
 
 }
 
@@ -41,8 +49,15 @@ void Baran::wczytaj()
 void Baran::walka()
 {
     srand(time(NULL)); //pobierz liczbe sekund od 1970 do momentu wywolania tej linijki.
-    PoziomHP = rand()%100+1; //do tego + sila + itemy [soon]
-    cout << PoziomHP << endl;
-
+    PoziomHP = rand()%100+Sila; //do tego + sila + itemy [soon]
+    if (PoziomHP < HP)
+    {
+        cout << "Zadales: " << PoziomHP << endl;
+        cout << "Zaraz bedzie kolejna runda!" << endl;
+    }
+    else
+    {
+        // ?????????
+    }
 }
 
