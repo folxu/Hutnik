@@ -4,11 +4,6 @@
 #include <string>
 using namespace std;
 
-// ********************************************
-// *************   G L O W N Y   **************
-// *************  B O H A T E R  **************
-// ********************************************
-
 class GlownyBohater
 {
 public:
@@ -18,21 +13,8 @@ public:
     int Inteligencja=0; // xd
     int Lvl=1;
 
-    //int Wytrzymalosc; ??? chyba niepotrzebne
-
-
     void wczytaj();  //wczytuje statystyki
 };
-
-
-
-// ********************************************
-// ************* P O S T A C I E **************
-// *************        W        **************
-// *************     G R Z E     **************
-// ********************************************
-
-
 
 class Baran //Baran to ten ziomek ktory w PROLOGU bil sie z glownym bohaterem przy WC
 {

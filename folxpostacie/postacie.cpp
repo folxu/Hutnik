@@ -7,7 +7,8 @@ using namespace std;
 
 void GlownyBohater::wczytaj() // Klasa::Statystyki
 {
-    //Sprawdzenie czy klasa dziala - zczytanie statystyk
+    //test
+
     cout << "Twoje HP " << HP << endl;
     cout << "Twoja Sila " << Sila << endl;
     cout << "Twoja Obrona " << Obrona << endl;
@@ -17,18 +18,10 @@ void GlownyBohater::wczytaj() // Klasa::Statystyki
 }
 
 
-
-// ********************************************
-// ************* P O S T A C I E **************
-// *************        W        **************
-// *************     G R Z E     **************
-// ********************************************
-
-
-
 void Baran::wczytaj()
 {
-    cout << "HP Barana: " << HP+15 << endl;
+    //test
+    cout << "HP Barana: " << HP << endl;
 
 }
 
