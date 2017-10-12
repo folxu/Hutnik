@@ -1,1 +1,1 @@
-Dodaj #include "folxpostacie/postacie.h" do main.cpp
+Dodaj #include "folx_core/postacie.h" do main.cpp
