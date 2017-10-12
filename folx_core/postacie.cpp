@@ -7,7 +7,7 @@ using namespace std;
 
 void GlownyBohater::ZadaneObrazenia()
 {
-    BohaterZadanyDMG = BohaterAtak + BohaterSila;
+    //BohaterZadanyDMG = BohaterAtak + BohaterSila;
     cout << "Zadales " << BohaterZadanyDMG << " obrazen" <<endl;
 }
 
@@ -27,7 +27,7 @@ void GlownyBohater::ZostaloHP()
 
 void PobocznaPostacBaran::BZadaneObrazenia()
 {
-    PPBZadanyDMG = PPBAtak + PPBSila;
+    //PPBZadanyDMG = PPBAtak + PPBSila;
     cout << "Poboczna Postac: " << imie << " zadala Ci: " << PPBZadanyDMG << " obrazen " << endl;
 }
 
