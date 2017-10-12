@@ -26,12 +26,12 @@ class PobocznaPostacBaran
 {
 private:
     string imie = "Baran";
-    int PPBAtak = 5;    // Atak = Hit => Zadane obrazenia [Defaultowo 5]
-    int PPBObrona = 10; // Obrona   | Defaultowo [10]
-    int PPBSila = 10;   // Sila     | Defaultowo [100]
-    int PPBHP = 100;    // HP       | Defaultowo [100]
-    int PPBZadanyDMG;   // Zliczenie Zadanych Obrazen
-    int PPBZostaloHP;   // Ilosc HP jakie zostalo.
+    int PPBAtak = 5;                // Atak = Hit => Zadane obrazenia [Defaultowo 5]
+    int PPBObrona = 10;             // Obrona   | Defaultowo [10]
+    int PPBSila = 10;               // Sila     | Defaultowo [100]
+    int PPBHP = 100;                // HP       | Defaultowo [100]
+    int PPBZadanyDMG;               // Zliczenie Zadanych Obrazen
+    int PPBZostaloHP;               // Ilosc HP jakie zostalo.
 
 public:
     void BZadaneObrazenia();

@@ -2,8 +2,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <time.h> // lub ctime
-
 using namespace std;
+
 
 void GlownyBohater::ZadaneObrazenia()
 {
@@ -13,17 +13,23 @@ void GlownyBohater::ZadaneObrazenia()
 
 void GlownyBohater::ZostaloHP()
 {
-    // Jak zrobic otrzymane obrazenia od przeciwnika - twoje hp?
+    // Zadane obrazenia od przeciwnika (od Barana) - twoje hp = ZostaloHP
+    // Ale jak to zrobic?
 }
 
-
-
 //          =========================================================================
-
+//                                  POBOCZNE POSTACIE
+//          =========================================================================
 
 
 void PobocznaPostacBaran::BZadaneObrazenia()
 {
     PPBZadanyDMG = PPBAtak + PPBSila;
-    cout << "Poboczna Postac: " << imie << " Zadala Ci: " << PPBZadanyDMG << " obrazen ";
+    cout << "Poboczna Postac: " << imie << " zadala Ci: " << PPBZadanyDMG << " obrazen ";
+}
+
+void PobocznaPostacBaran::BZostaloHP()
+{
+    // Zadane obrazenia od przeciwnika (Glowny Bohater) - HP Pobocznej Postaci (Barana) = BZostaloHP
+    // Ale jak to zrobic?
 }
