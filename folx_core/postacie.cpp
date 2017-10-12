@@ -1,5 +1,3 @@
-//kod do statystyk z postacie.h
-
 #include "postacie.h"
 #include <iostream>
 #include <cstdlib>
@@ -7,15 +5,25 @@
 
 using namespace std;
 
-void GlownyBohater::test()
+void GlownyBohater::ZadaneObrazenia()
 {
+    BohaterZadanyDMG = BohaterAtak + BohaterSila;
+    cout << "Zadales " << BohaterZadanyDMG << " obrazen" <<endl;
+}
 
-    cout << "Zadales przeciwnikowi: " << BohaterZadanyDMG << endl;
-    cout << "Przeciwnikowi zostalo: " << ZostaloHP << endl;
-
-
+void GlownyBohater::ZostaloHP()
+{
+    // Jak zrobic otrzymane obrazenia od przeciwnika - twoje hp?
 }
 
 
 
+//          =========================================================================
 
+
+
+void PobocznaPostacBaran::BZadaneObrazenia()
+{
+    PPBZadanyDMG = PPBAtak + PPBSila;
+    cout << "Poboczna Postac: " << imie << " Zadala Ci: " << PPBZadanyDMG << " obrazen ";
+}
