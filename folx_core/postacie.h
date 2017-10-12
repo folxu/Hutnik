@@ -6,27 +6,30 @@ using namespace std;
 
 class GlownyBohater
 {
-public:
-    int HP=100;
-    int Sila=10;
-    int Obrona=10;
-    int Inteligencja=0; // xd
-    int Lvl=1;
-    int PoziomHP; //wyswietla za ile przeciwnik lub ty dostal hita (?)
-    void wczytaj();  //wczytuje statystyki
-    void walka();
-};
+private:
+    // Atak = Hit => Zadane obrazenia [Defaultowo 1]
+    int BohaterAtak = 1;
 
-class Baran //Baran to ten ziomek ktory w PROLOGU bil sie z glownym bohaterem przy WC
-{
-public:
-    int HP=100;
-    int Sila=30;
-    int Obrona=30;
-    int Inteligencja=1;
-    int Lvl=4;
-    int PoziomHP;
+    // Obrona | [Defaultowo 5]
+    int BohaterObrona = 5;
 
-    void wczytaj(); //wczytuje barana xD!
-    void walka();
+    // Sila | Si³a bohatera | [Defaultowo: 5]
+    int BohaterSila = 5;
+
+    // HP Bohatera | [Defaultowo: 50! => HP bêdzie siê zwiêkszaæ z itemami!]
+    int BohaterHP = 50;
+
+    // Wyswietlenie zadanych obra¿eñ przeciwnikowi
+    int BohaterZadanyDMG = BohaterAtak + BohaterSila;
+
+    //Otrzymane obra¿enia - Poziom twojego HP
+    int ZostaloHP = BohaterHP - BohaterZadanyDMG;
+
+
+public:
+
+    //voidy
+
+    void test();
+
 };
