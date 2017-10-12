@@ -31,6 +31,7 @@ private:
     int PPBSila = 10;               // Sila     | Defaultowo [100]
     int PPBHP = 100;                // HP       | Defaultowo [100]
     int PPBZadanyDMG;               // Zliczenie Zadanych Obrazen
+public:
     int PPBZostaloHP;               // Ilosc HP jakie zostalo.
 
 public:

@@ -17,19 +17,22 @@ void GlownyBohater::ZostaloHP()
     // Ale jak to zrobic?
 }
 
+
+
 //          =========================================================================
 //                                  POBOCZNE POSTACIE
 //          =========================================================================
 
 
+
 void PobocznaPostacBaran::BZadaneObrazenia()
 {
     PPBZadanyDMG = PPBAtak + PPBSila;
-    cout << "Poboczna Postac: " << imie << " zadala Ci: " << PPBZadanyDMG << " obrazen ";
+    cout << "Poboczna Postac: " << imie << " zadala Ci: " << PPBZadanyDMG << " obrazen " << endl;
 }
 
 void PobocznaPostacBaran::BZostaloHP()
 {
-    // Zadane obrazenia od przeciwnika (Glowny Bohater) - HP Pobocznej Postaci (Barana) = BZostaloHP
-    // Ale jak to zrobic?
+    //PPBZostaloHP = PPBHP - BohaterZadanyDMG //
+    cout << "Pobocznej Postaci: " << imie << " zostalo " << PPBZostaloHP << " HP [Zdrowia]" << endl;
 }
