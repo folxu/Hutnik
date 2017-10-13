@@ -5,10 +5,12 @@
   - Klasy
   - System walki
 
+
 # Do zrobienia:
 
   - Skille
   - Użycie skilli
+  - Auto Update
 
 
 # Instalacja
