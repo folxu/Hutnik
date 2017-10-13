@@ -1,8 +1,5 @@
-#include "folx_core/postacie.h"# Core
+# Core - skład
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-Core - skład
 
   - Główna postać
   - Klasy
