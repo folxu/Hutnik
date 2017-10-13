@@ -20,9 +20,9 @@
 #include "folx_core/postacie.h"
 ```
 
-# Ostatnia aktualizacja:
+# Ostatnia aktualizacja [13.10.2017 19:50]:
 
-    -
+    - Poprawiony "system" zadania obrazen 
     -
     -
     -

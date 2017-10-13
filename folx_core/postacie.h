@@ -4,25 +4,7 @@
 #include <string>
 using namespace std;
 
-class GlownyBohater
-{
-public:
-    int BohaterAtak = 1;                                        // Atak = Hit => Zadane obrazenia [Defaultowo 1]
-    int BohaterObrona = 5;                                      // Obrona | [Defaultowo 5]
-    int BohaterSila = 5;                                        // Sila | Si³a bohatera | [Defaultowo: 5]
-    int BohaterHP = 50;                                         // HP Bohatera | [Defaultowo: 50! => HP bêdzie siê zwiêkszaæ z itemami!]
-    int BohaterZadanyDMG;                                       // Zadane obrazenia [postacie.cpp]
-    int BohaterowiZostaloHP;                                    // Ilosc HP jakie zostalo
-
-    void ZadaneObrazenia();                                     // Dzieki temu dziala BohaterZadanychDMG;
-
-};
-
-
-//          =========================================================================
-
-
-class PobocznaPostacBaran
+class poboczna
 {
 public:
     string imie = "Baran";
@@ -34,4 +16,26 @@ public:
     int PPBZostaloHP;                       // Ilosc HP jakie zostalo.
 
     void BZadaneObrazenia();                // Dzieki temu dziala PPBZadanychDMG;
+};
+
+
+//          =========================================================================
+
+
+class glownybohater
+{
+public:
+
+    int BohaterAtak = 1;                    // Atak = Hit => Zadane obrazenia [Defaultowo 1]
+    int BohaterObrona = 5;                  // Obrona | [Defaultowo 5]
+    int BohaterSila = 5;                    // Sila | Si³a bohatera | [Defaultowo: 5]
+    int BohaterHP = 50;                     // HP Bohatera | [Defaultowo: 50! => HP bêdzie siê zwiêkszaæ z itemami!]
+    int BohaterZadanyDMG;                   // Zadane obrazenia [postacie.cpp]
+    int BohaterowiZostaloHP;                // Ilosc HP jakie zostalo
+    glownybohater();
+    void ZadaneObrazenia();                 // Dzieki temu dziala BohaterZadanychDMG;
+    void wczytajwalke( poboczna Baran );    // Wczytuje menu walki
+
+
+
 };
