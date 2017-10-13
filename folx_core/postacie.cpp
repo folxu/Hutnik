@@ -25,6 +25,8 @@ void glownybohater::wczytajwalke( poboczna Baran )
     switch (wybor)
     {
     case 1:
+
+
         Sleep(300);
         cout << "Przygotowywujesz si\251 do walki.." << endl;
         Sleep(1500);
@@ -40,7 +42,35 @@ void glownybohater::wczytajwalke( poboczna Baran )
         {
             cout << endl;
             cout << "Co dalej?" << endl;
+            cout << endl;
+
+            cout << "1.Wykonaj kolejny cios.." << endl;
+            cout << "2.Uzyj skilla i rozwal oponenta w mak!" << endl;
+
             cin >> codalej;
+
+            switch (codalej)
+            {
+            case 1:
+                // wykonywanie kolejnego ciosu...
+                break;
+
+            case 2:
+                if (BohaterPoziom==10)
+                {
+                    cout << "Menu dostepnych skilli:" << endl;
+                    //tutaj skille
+                }
+                else
+                {
+                    cout << "Przykro mi ale skille sa dostepne od poziomu 10!" << endl;
+                    cout << "Aktualnie posiadasz: " << BohaterPoziom << " poziom " << endl;
+                    break;
+                }
+
+            }
+
+
         }
         else
         {
