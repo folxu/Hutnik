@@ -20,9 +20,14 @@
 #include "folx_core/postacie.h"
 ```
 
-# Ostatnia aktualizacja [13.10.2017 19:50]:
+# Polskie znaki C++ :
 
-    - Poprawiony "system" zadania obrazen 
-    -
-    -
-    -
+    - \206	-> ć
+    - \210	-> ł
+    - \230	-> ś
+    - \242	-> ó
+	- \245	-> ą
+	- \251	-> ę
+	- \253	-> ź
+	- \276	-> ż
+	- \344	-> ń
