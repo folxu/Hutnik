@@ -26,7 +26,7 @@ class glownybohater
 {
 public:
 
-    int BohaterAtak = 3;                    // Atak = Hit => Zadane obrazenia [Defaultowo 1]
+    int BohaterAtak = 90;                    // Atak = Hit => Zadane obrazenia [Defaultowo 1]
     int BohaterObrona = 5;                  // Obrona | [Defaultowo 5]
     int BohaterSila = 10;                   // Sila | Si³a bohatera | [Defaultowo: 5]
     int BohaterHP = 50;                     // HP Bohatera | [Defaultowo: 50! => HP bêdzie siê zwiêkszaæ z itemami!]
@@ -36,6 +36,7 @@ public:
     glownybohater();
     void ZadaneObrazenia();                 // Dzieki temu dziala BohaterZadanychDMG;
     void wczytajwalke( poboczna Baran );    // Wczytuje menu walki
+    void skille();
 
 
 
