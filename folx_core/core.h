@@ -15,7 +15,7 @@ public:
     int PPBZadanyDMG;                       // Zliczenie Zadanych Obrazen
     int PPBZostaloHP;                       // Ilosc HP jakie zostalo.
 
-    void BZadaneObrazenia();                // Dzieki temu dziala PPBZadanychDMG;
+    void BZadaneObrazenia();                // nwm..
 };
 
 
@@ -26,9 +26,9 @@ class glownybohater
 {
 public:
 
-    int BohaterAtak = 90;                    // Atak = Hit => Zadane obrazenia [Defaultowo 1]
+    int BohaterAtak = 30;                   // Atak = Hit => Zadane obrazenia [Defaultowo 1]
     int BohaterObrona = 5;                  // Obrona | [Defaultowo 5]
-    int BohaterSila = 10;                   // Sila | Si³a bohatera | [Defaultowo: 5]
+    int BohaterSila = 10;                   // Sila | Sila bohatera | [Defaultowo: 5]
     int BohaterHP = 50;                     // HP Bohatera | [Defaultowo: 50! => HP bêdzie siê zwiêkszaæ z itemami!]
     int BohaterZadanyDMG;                   // Zadane obrazenia [postacie.cpp]
     int BohaterowiZostaloHP;                // Ilosc HP jakie zostalo
@@ -36,7 +36,9 @@ public:
     glownybohater();
     void ZadaneObrazenia();                 // Dzieki temu dziala BohaterZadanychDMG;
     void wczytajwalke( poboczna Baran );    // Wczytuje menu walki
-    void skille();
+    void menuskille();                      // Menu skilli
+    void wczytajskille();                   // Wczytaj skille
+
 
 
 
